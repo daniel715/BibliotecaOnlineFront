@@ -1,0 +1,24 @@
+{
+  "name": "bibliotecaonlinefront",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint src --fix --ext .js,.vue"
+  },
+  "devDependencies": {
+    "sass": "^1.37.5",
+    "vite": "^2.4.4",
+    "vite-plugin-vue2": "^1.8.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.2",
+    "vuex": "^3.6.2"
+  }
+}
