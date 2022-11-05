@@ -7,7 +7,8 @@ export default new Vuex.Store({
   modules: {},
   plugins: [createLogger()],
   state: {
-    count: 0
+    count: 0,
+    isMobile: false
   },
   getters: {
     count(state) {
